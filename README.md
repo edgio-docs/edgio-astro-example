@@ -1,6 +1,6 @@
 # Layer0 Astro Example
 
-This is the [Astro](https://astro.build) documentation template configured to deploy to [Layer0](https://layer0.co)
+This is the [Astro](https://astro.build) documentation template configured to deploy on [Layer0](https://layer0.co).
 
 ## Setup
 
