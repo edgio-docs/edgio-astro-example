@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "name": "@example/docs",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@docsearch/react": "^1.0.0-alpha.27"
+  },
+  "devDependencies": {
+    "@astrojs/renderer-preact": "^0.2.2",
+    "@layer0/cli": "^3.16.11",
+    "@layer0/core": "^3.16.11",
+    "@layer0/devtools": "^3.16.11",
+    "@layer0/prefetch": "^3.16.11",
+    "@snowpack/plugin-dotenv": "^2.1.0",
+    "astro": "^0.20.12"
+  }
+}
