@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview"
   },
-  "name": "@example/docs",
+  "name": "layer0-astro-example",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
