@@ -10,7 +10,7 @@ export default new Router().static('dist', ({ cache }) => {
     },
     browser: {
       maxAgeSeconds: 0,
-      serviceWorkerSeconds: 60 * 60 * 24
+      serviceWorkerSeconds: 60 * 60 * 24,
     },
   })
 })
