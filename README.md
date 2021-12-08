@@ -24,9 +24,9 @@ On the command line, in the project root directory, run the following command:
 npm install
 ```
 
-### Run the Next.js app locally on Layer0
+### Run the Astro app locally on Layer0
 
-Run the Next.js app with the command:
+Run the Astro app with the command:
 
 ```bash
 npm run build && npm run layer0:dev
