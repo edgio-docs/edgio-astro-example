@@ -15,6 +15,6 @@ jobs:
       - run: |
           npm ci
           npm run build
-          npm run layer0:deploy -- --token=$LAYER0_DEPLOY_TOKEN
+          npm run deploy -- --token=$LAYER0_DEPLOY_TOKEN
         env:
           LAYER0_DEPLOY_TOKEN: ${{secrets.LAYER0_DEPLOY_TOKEN}}
