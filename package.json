@@ -1,26 +1,35 @@
 {
   "name": "layer0-astro-example",
-  "version": "0.0.1",
   "scripts": {
-    "layer0:dev": "layer0 dev",
-    "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy",
+    "astro": "astro",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "layer0:production": "layer0 run --production",
     "format": "prettier --write '**/*' --ignore-unknown"
   },
   "dependencies": {
-    "@docsearch/react": "^1.0.0-alpha.27"
+    "@algolia/client-search": "^4.13.1",
+    "@docsearch/css": "^3.1.0",
+    "@docsearch/react": "^3.1.0",
+    "@types/react": "^17.0.45",
+    "preact": "^10.7.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   },
   "devDependencies": {
-    "@astrojs/renderer-preact": "^0.2.2",
-    "@layer0/cli": "^4.13.8",
-    "@layer0/core": "^4.13.8",
-    "@layer0/devtools": "^4.13.8",
-    "@layer0/prefetch": "^4.13.8",
-    "@snowpack/plugin-dotenv": "^2.1.0",
-    "astro": "^0.20.12"
+    "@astrojs/preact": "^1.0.2",
+    "@astrojs/react": "^1.0.0",
+    "@layer0/cli": "^4.18.2",
+    "@layer0/core": "^4.18.2",
+    "@layer0/devtools": "^4.18.2",
+    "@layer0/prefetch": "^4.18.2",
+    "astro": "^1.0.6",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.5.0"
   }
 }
