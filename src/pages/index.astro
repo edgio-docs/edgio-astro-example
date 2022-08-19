@@ -1,5 +1,8 @@
-<script>
-  // Redirect your homepage to the first page of documentation.
-  // If you have a landing page, remove this script and add it here!
-  window.location.pathname = `/en/introduction`;
-</script>
+---
+import Home from '@/components/Home'
+import MainLayout from '@/layouts/MainLayout.astro'
+---
+
+<MainLayout>
+  <Home />
+</MainLayout>
