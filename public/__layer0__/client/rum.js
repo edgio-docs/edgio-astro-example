@@ -1,9 +1,3 @@
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js')
-  })
-}
-
 function initMetrics() {
   new Layer0.Metrics({
     token: '60b7c707-f5cb-4207-ad0e-ce65848ca570',
