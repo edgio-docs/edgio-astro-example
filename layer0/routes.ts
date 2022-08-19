@@ -1,5 +1,6 @@
 import { Router } from '@layer0/core/router'
 import { isProductionBuild } from '@layer0/core/environment'
+import { API_CACHE_HANDLER, IMAGE_CACHE_HANDLER } from './cache'
 
 const router = new Router()
 
@@ -18,6 +19,12 @@ router.match('/__xdn__/:path*', ({ redirect }) => {
 router.match('/service-worker.js', ({ serveStatic }) => {
   serveStatic('dist/service-worker.js')
 })
+
+// API (Any backend) caching
+router.match('/l0-api/:path*', API_CACHE_HANDLER)
+
+// Image caching
+router.match('/l0-opt', IMAGE_CACHE_HANDLER)
 
 if (isProductionBuild()) {
   router.static('dist')

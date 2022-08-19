@@ -24,11 +24,15 @@
   "devDependencies": {
     "@astrojs/preact": "^1.0.2",
     "@astrojs/react": "^1.0.0",
+    "@astrojs/tailwind": "^1.0.0",
+    "@heroicons/react": "^1.0.6",
     "@layer0/cli": "^4.18.2",
     "@layer0/core": "^4.18.2",
     "@layer0/devtools": "^4.18.2",
     "@layer0/prefetch": "^4.18.2",
+    "@layer0/react": "^4.18.2",
     "astro": "^1.0.6",
+    "classnames": "^2.3.1",
     "prettier": "^2.7.1",
     "prettier-plugin-astro": "^0.5.0"
   }
