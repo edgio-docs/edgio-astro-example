@@ -16,7 +16,7 @@ const Commerce = ({ data }) => {
         </div>
         <div className="flex flex-col items-start pt-5">
           <h2 className="text-[#FFFFFF75]">Showing {data.length} Results</h2>
-          <div className="sm:grd-cols-2 mt-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+          <div className="sm:grid-cols-2 mt-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
             {filterProducts(data, filter).map((i) => (
               <ProductPreview key={i.path} {...i} />
             ))}
