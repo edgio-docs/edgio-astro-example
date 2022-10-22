@@ -1,8 +1,10 @@
 # build output
-dist/
+/dist
+/.layer0
+/.edgio
 
 # dependencies
-node_modules/
+/node_modules
 
 # logs
 npm-debug.log*
@@ -17,5 +19,6 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# vs-code specific files
 /.vscode
-/.layer0

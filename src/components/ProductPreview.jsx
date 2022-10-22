@@ -1,6 +1,6 @@
 import React from 'react'
+import { Prefetch } from '@edgio/react'
 import { relativizeURL } from '@/helper'
-import { Prefetch } from '@layer0/react'
 import { HeartIcon } from '@heroicons/react/outline/esm/index.js'
 
 const ProductPreview = ({ name, slug, images, prices }) => {
