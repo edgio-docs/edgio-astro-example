@@ -24,7 +24,7 @@
     "@edgio/astro": "^5.0.4-next-1666451029-d02ad1f.0",
     "@edgio/cli": "^5.0.4-next-1666451029-d02ad1f.0",
     "@edgio/core": "^5.0.4-next-1666451029-d02ad1f.0",
-    "@edgio/devtools": "^5.0.4-next-1666451029-d02ad1f.0",
+    "@edgio/devtools": "^5.0.4-next-1667269007-d55f19a.0",
     "@edgio/prefetch": "^5.0.4-next-1666451029-d02ad1f.0",
     "@edgio/react": "^5.0.4-next-1666451029-d02ad1f.0",
     "@heroicons/react": "^1.0.6",
