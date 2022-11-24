@@ -21,7 +21,7 @@
   "devDependencies": {
     "@astrojs/react": "^1.2.1",
     "@astrojs/tailwind": "^2.1.1",
-    "@edgio/astro": "^5.0.4",
+    "@edgio/astro": "^5.0.5",
     "@edgio/cli": "^5.0.4",
     "@edgio/core": "^5.0.4",
     "@edgio/devtools": "^5.0.4",
