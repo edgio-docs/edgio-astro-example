@@ -23,7 +23,7 @@
     "@astrojs/tailwind": "^2.1.1",
     "@edgio/astro": "^5.0.4",
     "@edgio/cli": "^5.0.4",
-    "@edgio/core": "^5.0.4",
+    "@edgio/core": "^5.1.1",
     "@edgio/devtools": "^5.0.4",
     "@edgio/prefetch": "^5.0.4",
     "@edgio/react": "^5.0.4",
