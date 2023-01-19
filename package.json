@@ -1,5 +1,5 @@
 {
-  "name": "layer0-astro-example",
+  "name": "edgio-astro-example",
   "scripts": {
     "astro": "astro",
     "dev": "astro dev",
@@ -21,17 +21,18 @@
   "devDependencies": {
     "@astrojs/react": "^1.2.1",
     "@astrojs/tailwind": "^2.1.1",
-    "@edgio/astro": "^5.0.4",
-    "@edgio/cli": "^5.0.4",
-    "@edgio/core": "^5.0.4",
-    "@edgio/devtools": "^5.0.4",
-    "@edgio/prefetch": "^5.0.4",
-    "@edgio/react": "^5.0.4",
+    "@edgio/astro": "^6.0.5",
+    "@edgio/cli": "^6.0.5",
+    "@edgio/core": "^6.0.5",
+    "@edgio/devtools": "^6.0.5",
+    "@edgio/prefetch": "^6.0.5",
+    "@edgio/react": "^6.0.5",
     "@heroicons/react": "^1.0.6",
     "astro": "^1.5.2",
     "classnames": "^2.3.1",
     "prettier": "^2.7.1",
     "prettier-plugin-astro": "^0.6.0",
     "tailwindcss": "^3.2.1"
-  }
+  },
+  "repository": "git@github.com:edgio-docs/edgio-astro-example.git"
 }
